@@ -4,7 +4,7 @@ Giveaways
 What are Giveaways?
 -------------------
 
-PhatBot was initially built to handle giveways for the Steam Curator group Just Good PC Games (https://justgoocpgames.com). We had been given many keys to giveaway but didn't have a system in place to run it. I didn't want to manage spreadsheets, so a bot was the answer!
+PhatBot was initially built to handle giveways for the Steam Curator group `Just Good PC Games`__. We had been given many keys to giveaway but didn't have a system in place to run it. I didn't want to manage spreadsheets, so a bot was the answer!
 
 How do Giveaways work in PhatBot?
 ---------------------------------
@@ -119,3 +119,8 @@ In practice it can look something like This
   !addgiveaway Phats Awesome Giveaway Time | 10 | 12 | 0 | 5
 
 This will create a new giveaway called **Phats Awesome Giveaway Time** that will start in 10 days at 12:00 and giveaway a game every 5 minutes
+
+
+.. _JGPCG: https://justgoodpcgames.com
+
+__ JGPCG_
