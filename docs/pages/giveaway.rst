@@ -14,7 +14,7 @@ Giveaways in PhatBot are run in channels in servers. This was done so instead of
 This means once someone has entered for a giveaway, they are also entered for any future giveaways in that specific channel.
 
 
-Once a giveaway have started an alert will go out giving people a chance to enter. It will then wait the Giveaway Rate provided when setting up then start giving away games!
+Once a giveaway have started an alert for the Giveaway Alert role will go out giving people a chance to enter if they haven't already. It will then wait the Giveaway Rate provided when setting up then start giving away games!
 
 If a user has also linked their Steam to PhatBot, if they win a game it will check their list to see if they already own it and if they do it will pick another winner instead.
 
