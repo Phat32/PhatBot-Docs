@@ -33,4 +33,5 @@ This can be a handy tool and neat feature to allow your community to talk to you
 Check out the bot in action at https://phat32.tv
 
 .. _Phat32: https://twitter.com.ThePhat32
+
 .. _Giveaway: pages/giveaway
