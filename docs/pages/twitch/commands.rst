@@ -1,14 +1,23 @@
-Inviting PhatBot
-================
+Twitch Commands
+===============
 
-Inviting PhatBot to your server is super simple, but it does require a password to access the invite link. This is something you can only do by being part of the `Pixel Alliance`__ crew and checking out the #resources channel in Discord!
+**!roll**
+  Rolls a d20
 
-Go to https://phat32.tv/add-phatbot and enter the password.
+**!roll** *X* d *Y*
+  Will roll the *X* number of *Y* type of die
 
-Select the server to add PhatBot too, and add them! New roles will be created specifically for PhatBot.
+  Example: 
+  
+  .. code-block:: none
 
-Once added, move the PhatBot Role to where you want in the permission structure. Make sure it is below any moderator levels otherwise users can give themselves mod powers.
+    !roll 2d20
 
-.. _PA: https://pixelalliance.tv
+**!roll** *X* d *Y* +/- *Z*
+  Will roll the *X* number of *Y* type of die, then do math to the final answer
 
-__ PA_
+  Example: 
+  
+  .. code-block:: none
+
+    !roll 2d20-5

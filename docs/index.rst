@@ -10,6 +10,7 @@ Welcome to PhatBot Docs
    :maxdepth: 1
    :Caption: Getting Started
 
+   pages/getting started/what is phatbot
    pages/getting started/invite
 
 .. toctree::
@@ -22,7 +23,7 @@ Welcome to PhatBot Docs
 .. toctree::
    :maxdepth: 1
    :Caption: Twitch Features
-   
+
    pages/twitch/commands
 
 WTF is a PhatBot
