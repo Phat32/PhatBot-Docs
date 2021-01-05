@@ -8,11 +8,22 @@ Welcome to PhatBot Docs
 
 .. toctree::
    :maxdepth: 1
-   :Caption: Pages
+   :Caption: Getting Started
 
-   pages/invite
-   pages/commands
-   pages/giveaway
+   pages/getting started/invite
+
+.. toctree::
+   :maxdepth: 1
+   :Caption: Discord Features
+
+   pages/discord/giveaway
+   pages/discord/commands
+   
+.. toctree::
+   :maxdepth: 1
+   :Caption: Twitch Features
+   
+   pages/twitch/commands
 
 WTF is a PhatBot
 ----------------
