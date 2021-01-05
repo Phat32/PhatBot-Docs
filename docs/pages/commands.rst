@@ -9,13 +9,21 @@ General
 
 **!addrole** *role*
   Adds a role to a users profile. This can only add roles below the level of PhatBots own role.
+  
+  Example:
+  
+  .. code-block:: none
 
-  Example: !addrole blue
+    !addrole blue
 
 **!removerole** *role*
   Removes the role from the users profile
 
-  Example: !removerole blue
+  Example: 
+  
+  .. code-block:: none
+
+    !removerole blue
 
 **!roll**
   Rolls a d20
@@ -23,12 +31,20 @@ General
 **!roll** *X* d *Y*
   Will roll the *X* number of *Y* type of die
 
-  Example: !roll 2d20
+  Example: 
+  
+  .. code-block:: none
+
+    !roll 2d20
 
 **!roll** *X* d *Y* +/- *Z*
   Will roll the *X* number of *Y* type of die, then do math to the final answer
 
-  Example: !roll 2d20-5
+  Example: 
+  
+  .. code-block:: none
+
+    !roll 2d20-5
 
 **!waifu**
   Ask PhatBot to be your Waifu. There is a 1 in 10000000 change it will allow it.
@@ -48,7 +64,11 @@ Steam
 **!game** *@user*
   Randomly suggest a game from the library of the mentioned user
 
-  Example: !game @Phat32#0032
+  Example: 
+  
+  .. code-block:: none
+
+    !game @Phat32#0032
 
 **!recent**
   Show the game you have most recently been playing
@@ -56,17 +76,29 @@ Steam
 **!recent** *@user*
   Show the game the mentioned user has been playing most recently
 
-  Example: !recent @Phat32#0032
+  Example: 
+  
+  .. code-block:: none
+
+    !recent @Phat32#0032
 
 **!recent** *X*
   List the X number of most recent games you have played, up to a max of 15
 
-  Example: !recent 10
+  Example: 
+  
+  .. code-block:: none
+
+    !recent 10
 
 **!recent** *@user* *X*
   List the X number of most recent games the mentioned user has played, up to a max of 15
 
-  Example: !recent @Phat32#0032 10
+  Example: 
+  
+  .. code-block:: none
+
+    !recent @Phat32#0032 10
 
 **!top**
   Show the game with the most play time on your profile according to Steam
@@ -74,12 +106,20 @@ Steam
 **!top** *X*
   List the top X number of games you have played according to Steam, up to a max of 15
 
-  Example: !top 10
+  Example: 
+  
+  .. code-block:: none
+
+    !top 10
 
 **!top** *@user* *X*
   List the top X number of games for the mentioned user has played according to Steam, up to a max of 15
 
-  Example: !top @Phat32#0032 10
+  Example:
+
+  .. code-block:: none
+    
+    !top @Phat32#0032 10
 
 **!score** / **!recommended**
   Get the metacritic store and number of recommendations on Steam for the last suggested game provided by **!game**
@@ -123,11 +163,15 @@ Giveaway Contributor
 **!addgame** *Name / Steam Store Link / Steam Store ID*
   Add a game to PhatBots knowledgebase. Can profile the Name of the game, the store link, or just the Steam ID of the game
 
-  Example: !addgame Fall Guys Ultimate Knockout
+  Example: 
+  
+  .. code-block:: none
 
-  Example: !addgame https://store.steampowered.com/app/1097150/Fall_Guys_Ultimate_Knockout/
-
-  Example: !addgame 1097150
+    !addgame Fall Guys Ultimate Knockout
+    
+    !addgame https://store.steampowered.com/app/1097150/Fall_Guys_Ultimate_Knockout/
+    
+    !addgame 1097150
 
 **!addkey** *Name* | *Key*
   Add a key to PhatBot to be given away later
@@ -136,7 +180,11 @@ Giveaway Contributor
 
   - *Key* - The key to be given away
 
-  Example: !addkey Fall Guys Ultimate Knockout | XXXXX-XXXXX-XXXXX
+  Example: 
+  
+  .. code-block:: none
+
+    !addkey Fall Guys Ultimate Knockout | XXXXX-XXXXX-XXXXX
 
 **!addkey** *Steam URL* | *Key*
   Add a key to PhatBot to be given away later
@@ -145,7 +193,11 @@ Giveaway Contributor
 
   - *Key* - The key to be given away
 
-  Example: !addkey https://store.steampowered.com/app/1097150/Fall_Guys_Ultimate_Knockout/ | XXXXX-XXXXX-XXXXX
+  Example: 
+  
+  .. code-block:: none
+
+    !addkey https://store.steampowered.com/app/1097150/Fall_Guys_Ultimate_Knockout/ | XXXXX-XXXXX-XXXXX
 
 **!addkey** *Steam ID* | *Key*
   Add a key to PhatBot to be given away later
@@ -154,16 +206,24 @@ Giveaway Contributor
 
   - *Key* - The key to be given away
 
-  Example: !addkey 1097150 | XXXXX-XXXXX-XXXXX
+  Example: 
+  
+  .. code-block:: none
+
+    !addkey 1097150 | XXXXX-XXXXX-XXXXX
 
 **!addkey** *Name* | *key* | *dlc key*
   Also add DLC to a key in 1 command by adding | *dlc key* to the end. Multiple DLC keys can be added here
 
   - *DLC Key* - A DLC Key for the game that will be automatically connected to the key being added
 
-  Example: !addkey 1097150 | XXXXX-XXXXX-XXXXX | YYYYY-YYYYY-YYYYY
+  Example: 
+  
+  .. code-block:: none
 
-  Example: !addkey 1097150 | XXXXX-XXXXX-XXXXX | YYYYY-YYYYY-YYYYY | ZZZZZ-ZZZZZ-ZZZZZ
+    !addkey 1097150 | XXXXX-XXXXX-XXXXX | YYYYY-YYYYY-YYYYY
+    
+    !addkey 1097150 | XXXXX-XXXXX-XXXXX | YYYYY-YYYYY-YYYYY | ZZZZZ-ZZZZZ-ZZZZZ
 
 **!adddlc** *key* | *dlc key*
   Add a DLC Key to be included with a game that was previously added. Multiple DLC Keys can be added at 1 time
@@ -172,9 +232,13 @@ Giveaway Contributor
 
   - *DLC Key* - The key for DLC for the game
 
-  Example: !adddlc XXXXX-XXXXX-XXXXX | YYYYY-YYYYY-YYYYY 
+  Example: 
   
-  Example: !adddlc XXXXX-XXXXX-XXXXX | YYYYY-YYYYY-YYYYY | ZZZZZ-ZZZZZ-ZZZZZ
+  .. code-block:: none
+
+    !adddlc XXXXX-XXXXX-XXXXX | YYYYY-YYYYY-YYYYY 
+    
+    !adddlc XXXXX-XXXXX-XXXXX | YYYYY-YYYYY-YYYYY | ZZZZZ-ZZZZZ-ZZZZZ
 
 **!addgiveaway** *Giveaway Name* | *Days* | *Hour* | *Minute* | *Rate*
   Create a new giveaway. This will include all keys you have added to PhatBot that are unclaimed or not part of an upcoming giveaway
@@ -189,8 +253,13 @@ Giveaway Contributor
 
   - *Rate* - How many minutes between each key is given away
 
-  Example: !addgiveaway Phats Awesome Giveaway | 10 | 12 | 0 | 5
-    This will give you a giveaway named "Phats Awesome Giveaway" that will take place in 10 days, at noon PST, giving away a key every 5 minutes
+  Example: 
+  
+  .. code-block:: none
+
+    !addgiveaway Phats Awesome Giveaway | 10 | 12 | 0 | 5
+    
+  This will give you a giveaway named "Phats Awesome Giveaway" that will take place in 10 days, at noon PST, giving away a key every 5 minutes
 
 **!giveawayinterval** *Rate*
   Update the rate the games are given away in an active giveaway
@@ -213,7 +282,11 @@ Giveaway Contributor
 
   - *Key* - The Key of a game you no longer want to be given away
 
-  Example: !claim XXXXX-XXXXX-XXXXX
+  Example: 
+  
+  .. code-block:: none
+
+    !claim XXXXX-XXXXX-XXXXX
 
 **!give** / **!assign** *Key* | (*@User* or *Discord ID*)
   Give a key to a specific user that you have added to PhatBot
@@ -222,8 +295,13 @@ Giveaway Contributor
   
   - *User* - Either the @mention of a user or their Discord ID
 
-  Example: !give XXXXX-XXXXX-XXXXX | @Phat32#0032
-  Example: !give XXXXX-XXXXX-XXXXX | 157694248504918016
+  Example: 
+  
+  .. code-block:: none
+
+    !give XXXXX-XXXXX-XXXXX | @Phat32#0032
+    
+    !give XXXXX-XXXXX-XXXXX | 157694248504918016
 
 **!takeback** / **!unwin** *Game Name* | *@User*
   Take back a game that was assigned to or won by someone. They are still DMed the Key if won in a giveaway, so be careful.
@@ -232,7 +310,11 @@ Giveaway Contributor
   
   - *@User* - The @ mention of the user to take the key from
 
-  Example: !unwin Fall Guys Fall Guys Ultimate Knockout | @Phat32#0032
+  Example: 
+  
+  .. code-block:: none
+
+    !unwin Fall Guys Fall Guys Ultimate Knockout | @Phat32#0032
 
 Twitch
 ------
@@ -252,12 +334,20 @@ Admin
 **!ban** *@User*
   Bans the mentioned use from the server
 
-  Example: !ban @Phat32#0032
+  Example: 
+  
+  .. code-block:: none
+
+    !ban @Phat32#0032
 
 **!clear** *X*
   Removes the X number of messages sent in the channel
 
-  Example: !clear 10
+  Example: 
+  
+  .. code-block:: none
+
+    !clear 10
 
 **!bot**
   Enabled PhatBot to recivie commands in the channel
@@ -274,7 +364,11 @@ Admin
 **!settwitch** *twitch*
   Configures a channel to be connected to a Twitch channel to relay the chat
 
-  Example: !settwich Phat32
+  Example: 
+  
+  .. code-block:: none
+
+    !settwich Phat32
 
 **!disabletwitch**
   Disconnects a channel from the connected Twitch channel
@@ -293,35 +387,55 @@ Admin
 
   - *message* - The message to be displayed when someone uses !mutetwitch
 
-  Example: !twitchmute You got it boss, you won't get the pings anymore
+  Example: 
+  
+  .. code-block:: none
+
+    !twitchmute You got it boss, you won't get the pings anymore
 
 **!twitchalert** *message*
   Configure the message said by PhatBot when someone uses !alerttwitch
 
   - *message* - The message to be displayed when someone uses !alerttwitch
 
-  Example: !twitchalert Here come the pings! You will always know when someone goes live in this server!
+  Example: 
+  
+  .. code-block:: none
+
+    !twitchalert Here come the pings! You will always know when someone goes live in this server!
 
 **!giveawaymute** *message*
   Configure the message said by PhatBot when someone uses !mutegiveaway
 
   - *message* - The message to be displayed when someone uses !mutegiveaway
 
-  Example: !giveawaymute Okay, no more alerts for free games for you I guess
+  Example: 
+  
+  .. code-block:: none
+
+    !giveawaymute Okay, no more alerts for free games for you I guess
 
 **!giveawayalert** *message*
   Configure the message said by PhatBot when someone uses !alertgiveaway
 
   - *message* - The message to be displayed when someone uses !alertgiveaway
 
-  Example: !givewayalert You got it boss! Alerts incoming for free games!
+  Example: 
+  
+  .. code-block:: none
+
+    !givewayalert You got it boss! Alerts incoming for free games!
 
 **!joindm** *message*
   Configure the message PhatBot DMs when joining the server. This is empty by default.
 
   - *message* - The message to be DMed to new members
 
-  Example: !joindm Hey! Welcome to the server! Super happy to have you here!
+  Example: 
+  
+  .. code-block:: none
+
+    !joindm Hey! Welcome to the server! Super happy to have you here!
 
 **!runjoindm**
   Get a DM of the join DM that new members will see to verify it looks how you want it to looks
