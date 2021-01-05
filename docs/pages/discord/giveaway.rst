@@ -44,6 +44,17 @@ Enter the following command to leave the giveaway
 
   !leave
 
+Setup Server for Giveaways
+--------------------------
+
+To prepare your server for Giveaways, issue the command
+
+.. code-block:: none
+
+  !setupgiveaway
+
+This will create the **Giveaway Alert** role and assign it to everyone in the server. It may take a couple runs of the command to add to everyone. PhatBot will say how many people the role has been assigned too each time the command is issued. This will also enable auto assigning of the role on join to the server.
+
 Adding Keys
 -----------
 

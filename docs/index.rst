@@ -26,10 +26,9 @@ Check out the bot in action at https://phat32.tv
 
 .. toctree::
    :maxdepth: 1
-   :Caption: Getting Started
+   :Caption: Starting Out
 
    pages/getting started/what is phatbot
-   pages/getting started/invite
 
 .. toctree::
    :maxdepth: 1
@@ -42,6 +41,7 @@ Check out the bot in action at https://phat32.tv
    :maxdepth: 1
    :Caption: Twitch Features
 
+   pages/twitch/setup
    pages/twitch/commands
 
 .. _Phat32: https://twitter.com.ThePhat32
