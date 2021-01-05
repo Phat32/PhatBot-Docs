@@ -123,8 +123,10 @@ Giveaway Contributor
 **!addgame** *Name / Steam Store Link / Steam Store ID*
   Add a game to PhatBots knowledgebase. Can profile the Name of the game, the store link, or just the Steam ID of the game
 
-  Example: !addgame Hello Kitty Island Adventure
+  Example: !addgame Fall Guys Ultimate Knockout
+
   Example: !addgame https://store.steampowered.com/app/1097150/Fall_Guys_Ultimate_Knockout/
+
   Example: !addgame 1097150
 
 **!addkey** *Name* | *Key*
@@ -160,6 +162,7 @@ Giveaway Contributor
   - *DLC Key* - A DLC Key for the game that will be automatically connected to the key being added
 
   Example: !addkey 1097150 | XXXXX-XXXXX-XXXXX | YYYYY-YYYYY-YYYYY
+
   Example: !addkey 1097150 | XXXXX-XXXXX-XXXXX | YYYYY-YYYYY-YYYYY | ZZZZZ-ZZZZZ-ZZZZZ
 
 **!adddlc** *key* | *dlc key*
@@ -170,6 +173,7 @@ Giveaway Contributor
   - *DLC Key* - The key for DLC for the game
 
   Example: !adddlc XXXXX-XXXXX-XXXXX | YYYYY-YYYYY-YYYYY 
+  
   Example: !adddlc XXXXX-XXXXX-XXXXX | YYYYY-YYYYY-YYYYY | ZZZZZ-ZZZZZ-ZZZZZ
 
 **!addgiveaway** *Giveaway Name* | *Days* | *Hour* | *Minute* | *Rate*
