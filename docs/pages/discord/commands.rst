@@ -49,6 +49,9 @@ General
 **!waifu**
   Ask PhatBot to be your Waifu. There is a 1 in 10000000 change it will allow it.
 
+**!joke**
+  Tells a joke obtained from the `icanhazdadjoke.com API`__
+
 Steam
 -----
 
@@ -446,3 +449,6 @@ Admin
 **!disablejoindm**
   Disables the Join DM feature
 
+.. _joke: https://icanhazdadjoke.com/api
+
+__ joke_

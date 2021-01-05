@@ -21,3 +21,10 @@ Twitch Commands
   .. code-block:: none
 
     !roll 2d20-5
+
+**!joke**
+  Tells a joke obtained from the `icanhazdadjoke.com API`__
+
+.. _joke: https://icanhazdadjoke.com/api
+
+__ joke_
