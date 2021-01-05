@@ -22,6 +22,8 @@ You can say something in twitch and it will be captured in Discord, or if you're
 
 This can be a handy tool and neat feature to allow your community to talk to you without leaving Discord. Because it relays to all chats, this includes Discord. If PhatBot is connected to multiple Servers and the Twitch Chat is linked to a channel in each, the chat will go to all servers. Anything said in 1 servers channel will be available in all servers and Twitch equally. It is easy to keep track of the source of the message as it will say **[Twitch]** if it message originated there, other wise it will say the server name like **[Pixel Alliance]**
 
+Check out the bot in action at https://phat32.tv
+
 .. toctree::
    :maxdepth: 1
    :Caption: Getting Started
@@ -41,8 +43,6 @@ This can be a handy tool and neat feature to allow your community to talk to you
    :Caption: Twitch Features
 
    pages/twitch/commands
-
-Check out the bot in action at https://phat32.tv
 
 .. _Phat32: https://twitter.com.ThePhat32
 
