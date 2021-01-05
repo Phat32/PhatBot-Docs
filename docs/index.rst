@@ -13,9 +13,4 @@ Welcome to PhatBot Docs's
    pages/invite
    pages/commands
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+Check out the bot in action at https://phat32.tv
