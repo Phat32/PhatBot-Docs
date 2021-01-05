@@ -34,6 +34,7 @@ Check out the bot in action at https://phat32.tv
    :maxdepth: 1
    :Caption: Discord Features
 
+   pages/discord/setup
    pages/discord/giveaway
    pages/discord/commands
    
