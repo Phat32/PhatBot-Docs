@@ -8,9 +8,9 @@ Welcome to PhatBot Docs
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
 
    pages/invite
    pages/commands
+   pages/giveaway
 
 Check out the bot in action at https://phat32.tv
