@@ -7,7 +7,7 @@ Welcome to PhatBot Docs
 =========================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    pages/invite
    pages/commands
