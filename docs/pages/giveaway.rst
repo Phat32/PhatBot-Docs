@@ -56,4 +56,6 @@ To add keys, you must have the proper permissions first. This is done to prevent
 Creating a Giveaway
 -------------------
 
-To create a giveaway you must first enter keys into PhatBot so they can be given away. Look at the :ref:`pages/Commands#Giveaway Contributor` documentation for 
+To create a giveaway you must first enter keys into PhatBot so they can be given away. Look at the Commands_ documentation for 
+
+.. _Commands: :ref:`pages/Commands`
