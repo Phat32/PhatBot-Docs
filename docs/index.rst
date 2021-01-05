@@ -8,10 +8,14 @@ Welcome to PhatBot Docs
 
 .. toctree::
    :maxdepth: 1
+   :Caption: Pages
 
    pages/invite
    pages/commands
    pages/giveaway
+
+WTF is a PhatBot
+----------------
 
 PhatBot is a Discord and Twitch bot made by Phat32_ for... Discord and Twitch.
 
