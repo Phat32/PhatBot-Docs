@@ -331,6 +331,22 @@ Twitch
 **!alerttwitch**
   Add the **Twitch Alert** role to your profile, pinging you when someone goes live
 
+Twitter
+-------
+
+**!like** *Tweet*
+  Like a provided Tweet
+
+  **Requires Admin Channel**
+
+  - *Tweet* - The URL of the tweet to be linked
+
+  Example:
+
+  .. code-block:: none
+
+    !like https://twitter.com/ThePhat32/status/1344951296437075968
+
 Admin
 -----
 
@@ -357,6 +373,18 @@ Admin
 
 **!unbot**
   Disabled PhatBot from reciving commands in the channel
+
+**!isadmin**
+  Enable the channel to accept Admin Channel commands
+
+**!isnotadmin**
+  Removes the ability to issue Admin Channel commands
+
+**!isgiveaway**
+  Enabled giveaways to be run in a channel
+
+**!isnotgiveaway**
+  Removes the ability to run giveaways in the channel
 
 **!endgiveaway**
   Ends any active giveaways in the channel

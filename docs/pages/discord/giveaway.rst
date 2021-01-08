@@ -55,6 +55,16 @@ To prepare your server for Giveaways, issue the command
 
 This will create the **Giveaway Alert** role and assign it to everyone in the server. It may take a couple runs of the command to add to everyone. PhatBot will say how many people the role has been assigned too each time the command is issued. This will also enable auto assigning of the role on join to the server.
 
+Setup Channel for Giveaways
+---------------------------
+
+Once setup, run these 2 commands to enable giveaways in a channel
+
+.. code-block:: none
+
+  !bot
+  !isgiveaway
+
 Adding Keys
 -----------
 
