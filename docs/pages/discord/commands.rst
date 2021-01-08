@@ -339,7 +339,7 @@ Twitter
 
   **Requires Admin Channel**
 
-  - *Tweet* - The URL of the tweet to be linked
+  - *Tweet* - The URL of the tweet to be liked
 
   Example:
 
