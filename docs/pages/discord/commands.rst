@@ -477,6 +477,33 @@ Admin
 **!disablejoindm**
   Disables the Join DM feature
 
+**!addreact** @MessageId, @Emote, @Role
+  Add a React Role to a message. This role will be assigned to a user if they react to that message with the same emote and removed if they remove the reaction
+
+  Example:
+
+  .. code-block:: none
+
+    !addreact 879904482018873385 :p32Pog: @AwesomeRole
+
+**!removereact** @MessageId, @Emote
+    Remove a React Role from a message
+  
+    Example:
+  
+    .. code-block:: none
+  
+      !removereact 879904482018873385 :p32Pog:
+
+**!clearreacts** @MessageId
+    Remove all React Roles from a message
+  
+    Example:
+  
+    .. code-block:: none
+  
+      !clearreacts 879904482018873385
+
 .. _joke: https://icanhazdadjoke.com/api
 
 __ joke_
