@@ -45,6 +45,7 @@ Broadcaster Commands
   - $Type - The type of Subscription (Prime, Tier 1, etc)
 
   Example:
+
   .. code-block:: none
 
     !sub $Sub is coming in with a $Type sub! Thank is amazing of you p32O7
@@ -59,6 +60,7 @@ Broadcaster Commands
     - $Type - The type of Subscription (Prime, Tier 1, etc)
   
     Example:
+
     .. code-block:: none
   
       !resub $Sub is coming in for $Months months with a $Type sub! Thank is amazing of you p32O7
@@ -74,6 +76,7 @@ Broadcaster Commands
       - $Gifter - The name of the gifter, if gifted as Anon the name will be displayed as "Anon"
     
       Example:
+
       .. code-block:: none
     
         !giftsub $Gifter is handing $Sub a $Type sub! Thank is amazing of you p32O7
@@ -89,6 +92,7 @@ Broadcaster Commands
         
       
         Example:
+        
         .. code-block:: none
       
           !communitysub $Gifter is handing $Count $Type subs to the chat! Thank is amazing of you p32O7
