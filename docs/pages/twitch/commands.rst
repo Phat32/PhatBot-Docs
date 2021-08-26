@@ -51,7 +51,7 @@ Broadcaster Commands
     !sub $Sub is coming in with a $Type sub! Thank is amazing of you p32O7
 
 **!resub** Message {$Sub|$Months|$Type}
-    Sets the message PhatBot will say when someone Re-Subscribes
+    Sets the message PhatBot will say when someone Re-Subscribes. If the Sub message is configured and this is left unconfigured PhatBot will use the Sub message as the Re-Sub message.
   
     *params*
 
