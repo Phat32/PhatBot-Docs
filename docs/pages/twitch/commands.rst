@@ -35,6 +35,8 @@ __ joke_
 Broadcaster Commands
 --------------------
 
+**These command must be run by you in your chat to work**
+
 **!sub** Message {$Sub|$Months|$Type}
   Sets the message PhatBot will say when someone Subscribes
 
