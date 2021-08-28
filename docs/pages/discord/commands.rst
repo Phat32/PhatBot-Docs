@@ -87,7 +87,7 @@ Pokemon
 
   .. code-block:: none
 
-    !pokemon Alakazham
+    !pokemon Alakazam
 
 Steam
 -----
