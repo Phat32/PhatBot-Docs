@@ -28,6 +28,10 @@ General Commands
 **!joke**
   Tells a joke obtained from the `icanhazdadjoke.com API`__
 
+
+**!waifu** 
+  Check to see if PhatBot will agree to be your Waifu or not (probably not)
+
 .. _joke: https://icanhazdadjoke.com/api
 
 __ joke_

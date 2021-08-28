@@ -52,6 +52,43 @@ General
 **!joke**
   Tells a joke obtained from the `icanhazdadjoke.com API`__
 
+Anime
+-----
+
+**!anime** *name*
+  Will search for an anime matching the provided name and provide the shows synopsis and various details about the show
+
+  .. code-block:: none
+
+    !anime slime
+
+**!character** *name*
+  Will search for an anime character with the provided name and provide a description of the character
+
+  .. code-block:: none
+
+    !character rimuru
+
+Pokemon
+-------
+
+**!pokemon**
+  Will get a random Pokemon and tell you their description and various stats
+
+**!pokemon** *id*
+  Will get the Pokemon and tell you their description and various stats
+
+  .. code-block:: none
+
+    !pokemon 65
+
+**!pokemon** *name*
+  Will get the Pokemon and tell you their description and various stats
+
+  .. code-block:: none
+
+    !pokemon Alakazham
+
 Steam
 -----
 
