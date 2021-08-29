@@ -4,6 +4,15 @@ Twitch Commands
 General Commands
 ----------------
 
+**!followage**
+  Get the total amount of time following the channel
+
+**!watchtime**
+  Get the total amount of time spent watching the stream
+
+Fun Commands
+------------
+
 **!roll**
   Rolls a d20
 
