@@ -62,12 +62,88 @@ Anime
 
     !anime slime
 
+**!anime** name: *name* index: *x*
+  Select a specific anime when there are multiple results
+
+  .. code-block:: none
+
+    !anime name: slime index: 2
+
 **!character** *name*
   Will search for an anime character with the provided name and provide a description of the character
 
   .. code-block:: none
 
     !character rimuru
+
+**!character** name: *name* index: *x*
+  Select a specific character when there are multiple results
+
+  .. code-block:: none
+
+    !character name: son goku index: 3
+
+**!manga** *name*
+  Will search for an manga with the provided name and provide a synopsis of the manga
+
+  .. code-block:: none
+
+    !manga yugioh
+
+**!manga** name: *name* index: *x*
+  Select a specific manga when there are multiple results
+
+  .. code-block:: none
+
+    !manga name: yugioh index: 3
+
+Games
+-----
+
+**!game** *name*
+  Will search for an game with the provided name and provide a synopsis and various details about the game
+
+  .. code-block:: none
+
+    !manga Assassins Creed Valhalla
+
+**!game** name: *name* index: *x*
+  Select a specific game when there are multiple results
+
+  .. code-block:: none
+
+    !manga name: Assassins index: 3
+
+Movies/TV
+---------
+
+**!movie** *name*
+  Will search for an anime character with the provided name and provide a description of the character
+
+  .. code-block:: none
+
+    !character Red
+
+**!movie** name: *name* index: *x*
+  Select a specific character when there are multiple results
+
+  .. code-block:: none
+
+    !character name: Harry Potter index: 3
+
+**!show** *name*
+  Will search for an show with the provided name and provide a synopsis of the manga
+
+  .. code-block:: none
+
+    !show Avatar The Last Airbender
+
+**!show** name: *name* index: *x*
+  Select a specific show when there are multiple results
+
+  .. code-block:: none
+
+    !show name: avatar index: 1
 
 Pokemon
 -------
@@ -89,6 +165,23 @@ Pokemon
 
     !pokemon Alakazam
 
+Star Citizen
+------------
+
+**!ship** *name*
+  Will search for an ship with the provided name and provide a details on the ship
+
+  .. code-block:: none
+
+    !ship Carrack
+
+**!ship** name: *name* index: *x*
+  Select a specific ship when there are multiple results
+
+  .. code-block:: none
+
+    !show name: constellation  index: 3
+
 Steam
 -----
 
@@ -98,10 +191,10 @@ Steam
 **!mysteam**
   Display your Steam Profile as known by PhatBot
 
-**!game**
+**!pickgame**
   Randomly suggest a game from your library to play
 
-**!game** *@user*
+**!pickgame** *@user*
   Randomly suggest a game from the library of the mentioned user
 
   Example: 

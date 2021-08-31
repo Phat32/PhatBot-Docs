@@ -10,6 +10,9 @@ General Commands
 **!watchtime**
   Get the total amount of time spent watching the stream
 
+**!uptime**
+  Get the time the stream has currently been active for
+
 Fun Commands
 ------------
 
@@ -66,48 +69,61 @@ Broadcaster Commands
     !sub $Sub is coming in with a $Type sub! Thank is amazing of you p32O7
 
 **!resub** Message {$Sub|$Months|$Type}
-    Sets the message PhatBot will say when someone Re-Subscribes. If the Sub message is configured and this is left unconfigured PhatBot will use the Sub message as the Re-Sub message.
-  
-    *params*
+  Sets the message PhatBot will say when someone Re-Subscribes. If the Sub message is configured and this is left unconfigured PhatBot will use the Sub message as the Re-Sub message.
 
-    - $Sub - The name of the subscriber
-    - $Months - Cumulative count of months subscribed
-    - $Type - The type of Subscription (Prime, Tier 1, etc)
-  
-    Example:
+  *params*
 
-    .. code-block:: none
-  
-      !resub $Sub is coming in for $Months months with a $Type sub! Thank is amazing of you p32O7
+  - $Sub - The name of the subscriber
+  - $Months - Cumulative count of months subscribed
+  - $Type - The type of Subscription (Prime, Tier 1, etc)
+
+  Example:
+
+  .. code-block:: none
+
+    !resub $Sub is coming in for $Months months with a $Type sub! Thank is amazing of you p32O7
 
 **!giftsub** Message {$Sub|$Months|$Type|$Gifter}
-      Sets the message PhatBot will say when someone Gift subs
-    
-      *params*
-  
-      - $Sub - The name of the subscriber
-      - $Months - Cumulative count of months subscribed
-      - $Type - The type of Subscription (Prime, Tier 1, etc)
-      - $Gifter - The name of the gifter, if gifted as Anon the name will be displayed as "Anon"
-    
-      Example:
+  Sets the message PhatBot will say when someone Gift subs
 
-      .. code-block:: none
-    
-        !giftsub $Gifter is handing $Sub a $Type sub! Thank is amazing of you p32O7
+  *params*
+
+  - $Sub - The name of the subscriber
+  - $Months - Cumulative count of months subscribed
+  - $Type - The type of Subscription (Prime, Tier 1, etc)
+  - $Gifter - The name of the gifter, if gifted as Anon the name will be displayed as "Anon"
+
+  Example:
+
+  .. code-block:: none
+
+    !giftsub $Gifter is handing $Sub a $Type sub! Thank is amazing of you p32O7
 
 **!communitysub** Message {$Gifter|$Count|$Type}
-        Sets the message PhatBot will say when someone gives Community Subscriptions
-      
-        *params*
-    
-        - $Gifter - The name of the gifter, if gifted as Anon the name will be displayed as "Anon"
-        - $Count - The number of subs that were gifted
-        - $Type - The type of Subscription (Prime, Tier 1, etc)
-        
-      
-        Example:
-        
-        .. code-block:: none
-      
-          !communitysub $Gifter is handing $Count $Type subs to the chat! Thank is amazing of you p32O7
+  Sets the message PhatBot will say when someone gives Community Subscriptions
+
+  *params*
+
+  - $Gifter - The name of the gifter, if gifted as Anon the name will be displayed as "Anon"
+  - $Count - The number of subs that were gifted
+  - $Type - The type of Subscription (Prime, Tier 1, etc)
+  
+
+  Example:
+  
+  .. code-block:: none
+
+    !communitysub $Gifter is handing $Count $Type subs to the chat! Thank is amazing of you p32O7
+
+**!updateping** {On|Enabled|Enable|Yes|True}
+  Configure PhatBot to ping in Discord when stream details are updated like the title or game has changed
+
+  Example:
+
+  .. code-block:: none
+
+    !updateping on
+    !updateping off
+
+  *Note: PhatBot is specifically looking for On, Enabled, Enable, Yes, and True to activate the alert. Any other value will disable it.*
+  
