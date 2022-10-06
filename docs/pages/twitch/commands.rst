@@ -13,6 +13,9 @@ General Commands
 **!followage**
   Get the total amount of time following the channel
 
+**!topdeaths**
+  Show the top 3 death counts and the game attached to them
+
 **!watchtime**
   Get the total amount of time spent watching the stream
 
