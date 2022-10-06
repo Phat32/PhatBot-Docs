@@ -86,6 +86,7 @@ Moderator Commands
   Example:
 
   .. code-block:: none
+    
     !removecommand vibe
 
 Broadcaster Commands
