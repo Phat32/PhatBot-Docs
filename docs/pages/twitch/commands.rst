@@ -7,6 +7,9 @@ General Commands
 **!commands**
   Get a list of the commands created just for the channel
 
+**!death**
+  Get a count of the number of deaths for the current game
+
 **!followage**
   Get the total amount of time following the channel
 
@@ -50,6 +53,29 @@ Fun Commands
 .. _joke: https://icanhazdadjoke.com/api
 
 __ joke_
+
+VIP Commands
+------------
+
+**These are commands that are accessible to VIPs, Mods and Broadcasters**
+
+**!death+** {number}
+  Add to the death counter for the current game being played. Leave blank for adding just 1, or add a number afterwards to add that many if several were missed
+
+  Examples:
+
+  .. code-block:: none
+    !death+
+    !death+ 5
+
+**!death-** {number}
+  Remove a death from the counter for the current game being played. Leave blank for removing just 1, or add a number afterwards to remove that many if several were added in error
+
+  Examples:
+
+  .. code-block:: none
+    !death-
+    !death- 5
 
 Moderator Commands
 ------------------
