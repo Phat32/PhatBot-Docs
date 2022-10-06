@@ -68,6 +68,7 @@ VIP Commands
   Examples:
 
   .. code-block:: none
+
     !death+
     !death+ 5
 
@@ -77,6 +78,7 @@ VIP Commands
   Examples:
 
   .. code-block:: none
+    
     !death-
     !death- 5
 
