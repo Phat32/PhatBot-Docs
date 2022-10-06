@@ -57,7 +57,7 @@ Moderator Commands
 **These commands are accessible to Moderators and Broadcasters**
 
 **!setcommand** Command Response
-  Create a new command unique to the channel. The command must be all 1 word but the Response can be much longer. Multiple Parameters are available to be used in the responses.
+  Create/Update a command unique to the channel. The command must be all 1 word but the Response can be much longer. Multiple Parameters are available to be used in the responses.
 
   *params*
   
@@ -86,7 +86,7 @@ Moderator Commands
   Example:
 
   .. code-block:: none
-    
+
     !removecommand vibe
 
 Broadcaster Commands
