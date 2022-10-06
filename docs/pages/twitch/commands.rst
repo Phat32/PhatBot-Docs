@@ -4,6 +4,9 @@ Twitch Commands
 General Commands
 ----------------
 
+**!commands**
+  Get a list of the commands created just for the channel
+
 **!followage**
   Get the total amount of time following the channel
 
@@ -47,6 +50,43 @@ Fun Commands
 .. _joke: https://icanhazdadjoke.com/api
 
 __ joke_
+
+Moderator Commands
+------------------
+
+**These commands are accessible to Moderators and Broadcasters**
+
+**!setcommand** Command Response
+  Create a new command unique to the channel. The command must be all 1 word but the Response can be much longer. Multiple Parameters are available to be used in the responses.
+
+  *params*
+  
+  - $user - The person issuing the command I.E. the viewer
+  - $channel - The name of the channel
+  - $title - The current title of the stream
+  - $game - The current game / category name
+  - $randnum - Get a random number between 1 and 100
+  - $randuser - Get a random chatter, they must be active
+
+  Example:
+
+  .. code-block:: none
+
+    !setcommand vibe Right now $user is vibing at $randnum%
+
+  This creates the command !vibe for the channel
+
+  Result:
+
+  *Right now PhatBot is vibing at 69%*
+
+**!removecommand** Command
+  Removes a created command from the channel
+
+  Example:
+
+  .. code-block:: none
+    !removecommand vibe
 
 Broadcaster Commands
 --------------------
