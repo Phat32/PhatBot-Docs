@@ -78,7 +78,7 @@ VIP Commands
   Examples:
 
   .. code-block:: none
-    
+
     !death-
     !death- 5
 
@@ -98,6 +98,7 @@ Moderator Commands
   - $game - The current game / category name
   - $randnum - Get a random number between 1 and 100
   - $randuser - Get a random chatter, they must be active
+  - $param - Accept the text after the command as input for the command (See Below for example)
 
   Example:
 
@@ -107,9 +108,29 @@ Moderator Commands
 
   This creates the command !vibe for the channel
 
+  .. code-block:: none
+
+    !vibe
+
   Result:
 
   *Right now PhatBot is vibing at 69%*
+
+  $param Example:
+
+  .. code-block:: none
+
+    !setcommand so Check out @$param over at twitch.tv/$param!
+
+  This creates the command !so for the channel
+
+  .. code-block:: none
+
+    !so PhatBot
+
+  Result:
+
+  *Check out PhatBot over at twitch.tv/PhatBot!*
 
 **!removecommand** Command
   Removes a created command from the channel
