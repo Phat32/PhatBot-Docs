@@ -146,6 +146,15 @@ Broadcaster Commands
 
 **These command must be run by you in your chat to work**
 
+**!autoraid**
+  Enable/Disable automatic shoutouts when raided. When enabled and raided PhatBot will use the built in Twitch /shoutout command as well as an annoucement
+
+  Example:
+
+  .. code-block:: none
+
+    !autoraid
+
 **!sub** Message {$Sub|$Months|$Type}
   Sets the message PhatBot will say when someone Subscribes
 
