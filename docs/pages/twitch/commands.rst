@@ -130,7 +130,7 @@ Moderator Commands
 
   Result:
 
-  *Check out PhatBot over at twitch.tv/PhatBot!*
+  *Check out @PhatBot over at twitch.tv/PhatBot!*
 
 **!removecommand** Command
   Removes a created command from the channel
