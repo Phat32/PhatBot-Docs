@@ -155,67 +155,95 @@ Broadcaster Commands
 
     !autoraid
 
-**!sub** Message {$Sub|$Months|$Type}
+**!deathmessage**
+  Configure the message PhatBot replies with for viewers using the !death command
+
+  *params*
+
+  - $channel - The name of the channel
+  - $deaths - The number of deaths for the game
+  - $game - The title of the Game
+
+  Example:
+
+  .. code-block:: none
+
+    !deathmessage p32RIP $channel has died $deaths times in $game
+
+**!raidmessage**
+  Configure the annoucement that PhatBot uses when raided and autoraid is enabled
+
+  *params*
+
+  - $raider - The name of the channel that raided
+
+  Example:
+
+  .. code-block:: none
+
+    !raider Thank you $raider for the raid! Check them out over at twitch.tv/$raider p32O7
+
+**!sub** message
   Sets the message PhatBot will say when someone Subscribes
 
   *params*
 
-  - $Sub - The name of the subscriber
-  - $Months - Cumulative count of months subscribed
-  - $Type - The type of Subscription (Prime, Tier 1, etc)
+  - $sub - The name of the subscriber
+  - $months - Cumulative count of months subscribed
+  - $type - The type of Subscription (Prime, Tier 1, etc)
 
   Example:
 
   .. code-block:: none
 
-    !sub $Sub is coming in with a $Type sub! Thank is amazing of you p32O7
+    !sub $sub is coming in with a $type sub! Thank is amazing of you p32O7
 
-**!resub** Message {$Sub|$Months|$Type}
+**!resub** message
   Sets the message PhatBot will say when someone Re-Subscribes. If the Sub message is configured and this is left unconfigured PhatBot will use the Sub message as the Re-Sub message.
 
   *params*
 
-  - $Sub - The name of the subscriber
-  - $Months - Cumulative count of months subscribed
-  - $Type - The type of Subscription (Prime, Tier 1, etc)
+  - $sub - The name of the subscriber
+  - $months - Cumulative count of months subscribed
+  - $type - The type of Subscription (Prime, Tier 1, etc)
 
   Example:
 
   .. code-block:: none
 
-    !resub $Sub is coming in for $Months months with a $Type sub! Thank is amazing of you p32O7
+    !resub $sub is coming in for $months months with a $type sub! Thank is amazing of you p32O7
 
-**!giftsub** Message {$Sub|$Months|$Type|$Gifter}
+**!giftsub** message
   Sets the message PhatBot will say when someone Gift subs
 
   *params*
 
-  - $Sub - The name of the subscriber
-  - $Months - Cumulative count of months subscribed
-  - $Type - The type of Subscription (Prime, Tier 1, etc)
-  - $Gifter - The name of the gifter, if gifted as Anon the name will be displayed as "Anon"
+  - $sub - The name of the subscriber
+  - $months - Cumulative count of months subscribed
+  - $type - The type of Subscription (Prime, Tier 1, etc)
+  - $gifter - The name of the gifter, if gifted as Anon the name will be displayed as "Anon"
 
   Example:
 
   .. code-block:: none
 
-    !giftsub $Gifter is handing $Sub a $Type sub! Thank is amazing of you p32O7
+    !giftsub $gifter is handing $sub a $type sub! Thank is amazing of you p32O7
 
-**!communitysub** Message {$Gifter|$Count|$Type}
+**!communitysub** message
   Sets the message PhatBot will say when someone gives Community Subscriptions
 
   *params*
 
-  - $Gifter - The name of the gifter, if gifted as Anon the name will be displayed as "Anon"
-  - $Count - The number of subs that were gifted
-  - $Type - The type of Subscription (Prime, Tier 1, etc)
+  - $gifter - The name of the gifter, if gifted as Anon the name will be displayed as "Anon"
+  - $count - The number of subs that were gifted
+  - $type - The type of Subscription (Prime, Tier 1, etc)
   
 
   Example:
   
   .. code-block:: none
 
-    !communitysub $Gifter is handing $Count $Type subs to the chat! Thank is amazing of you p32O7
+    !communitysub $gifter is handing $count $type subs to the chat! Thank is amazing of you p32O7
 
 **!updateping** {On|Enabled|Enable|Yes|True}
   Configure PhatBot to ping in Discord when stream details are updated like the title or game has changed
