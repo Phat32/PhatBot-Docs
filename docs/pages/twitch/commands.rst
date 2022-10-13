@@ -13,6 +13,9 @@ General Commands
 **!followage**
   Get the total amount of time following the channel
 
+**!quote**
+  Get a random quote from the channels history
+
 **!topdeaths**
   Show the top 3 death counts and the game attached to them
 
@@ -82,6 +85,15 @@ VIP Commands
     !death-
     !death- 5
 
+**!quote+** Quote
+  Add a quote to the list of quotes for the channel
+
+  Examples:
+
+  .. code-block:: none
+
+    !quote+ I believe in the you believing in me
+
 Moderator Commands
 ------------------
 
@@ -140,6 +152,15 @@ Moderator Commands
   .. code-block:: none
 
     !removecommand vibe
+
+**!quote-** number
+  Remove a quote from the list of quotes for the channel, must provide the number of the quote that is being removed
+
+  Examples:
+
+  .. code-block:: none
+
+    !quote- 2
 
 Broadcaster Commands
 --------------------
@@ -205,6 +226,7 @@ Broadcaster Commands
 
   - $sub - The name of the subscriber
   - $months - Cumulative count of months subscribed
+  - $streak - Their current sub streak
   - $type - The type of Subscription (Prime, Tier 1, etc)
 
   Example:
