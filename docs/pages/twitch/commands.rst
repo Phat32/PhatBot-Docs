@@ -19,11 +19,11 @@ General Commands
 **!topdeaths**
   Show the top 3 death counts and the game attached to them
 
-**!watchtime**
-  Get the total amount of time spent watching the stream
-
 **!uptime**
   Get the time the stream has currently been active for
+
+**!watchtime**
+  Get the total amount of time spent watching the stream
 
 Fun Commands
 ------------
