@@ -21,7 +21,7 @@ General Commands
   .. code-block:: none
 
     !quote
-    !quote 694
+    !quote 69
 
 **!topdeaths**
   Show the top 3 death counts and the game attached to them
