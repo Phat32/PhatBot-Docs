@@ -14,7 +14,14 @@ General Commands
   Get the total amount of time following the channel
 
 **!quote**
-  Get a random quote from the channels history
+  Get a random quote from the channels history, or add a number to get a specific quote
+
+  Examples:
+
+  .. code-block:: none
+
+    !quote
+    !quote 694
 
 **!topdeaths**
   Show the top 3 death counts and the game attached to them
@@ -78,7 +85,7 @@ VIP Commands
 **!death-** {number}
   Remove a death from the counter for the current game being played. Leave blank for removing just 1, or add a number afterwards to remove that many if several were added in error
 
-  Examples:
+  Examples:5
 
   .. code-block:: none
 
